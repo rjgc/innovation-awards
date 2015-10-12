@@ -1,0 +1,75 @@
+/* =============== RESET CSS =============== */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, 
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, 
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+												/* =============== LP INNOVATION AWARDS THEME =============== */
+body {min-width: 320px;background: #fff;}
+.mw-container {width:1920px;height: 1080px;margin: 0 auto;position: relative;font-family: Arial,sans-serif;
+	background: #fff url("../imgs/body.jpg") no-repeat;background-size:contain;padding: 0;
+}
+.mw-container,   .mw-container:before,   .mw-container:after,
+.mw-container *, .mw-container *:before, .mw-container *:after {
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+}
+.mw-container .mw-logotipo{width:320px;height: 114px;position:absolute;top: 52px;left: 553px;text-indent: -9999px;overflow: hidden;}
+.mw-container .slider-wrapper {padding: 240px 20px 190px;width: 100%;height: 100%;}
+
+#html5-watermark{display: none!important;}
+#html5-close{top: -14px!important;right: 15px!important;margin: 0!important;}
+#html5-elem-box{border-radius: 7px 7px 0 0!important;overflow: hidden!important;}
+
+#html5-lightbox .lightboxleft, .video-lightbox .lightboxleft {float: left;}
+#html5-lightbox .lightboxright, .video-lightbox .lightboxright {float: right;}
+
+.left-gradient {
+	width: 150px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(226,226,226,0);
+	background: -moz-linear-gradient(left, rgba(226,226,226,1) 20%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(20%, rgba(226,226,226,1)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left, rgba(226,226,226,1) 20%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left, rgba(226,226,226,1) 20%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left, rgba(226,226,226,1) 20%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(226,226,226,1) 20%, rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff', GradientType=1 );
+}
+
+.right-gradient {
+	width: 150px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: rgba(149,193,228,0);
+	background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(149,193,228,1) 80%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(80%, rgba(149,193,228,1)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(149,193,228,1) 80%);
+	background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(149,193,228,1) 80%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(149,193,228,1) 80%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(149,193,228,1) 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#95c1e4', GradientType=1 );
+}
+
+
+@media screen and (max-width: 999px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
