@@ -15,7 +15,7 @@ blockquote:before, blockquote:after, q:before, q:after {content: '';content: non
 table {border-collapse: collapse;border-spacing: 0;}
 
 												/* =============== LP INNOVATION AWARDS THEME =============== */
-body {min-width: 320px;background: #fff;}
+body {min-width:1920px;max-width:1920px;width:1920px;height: 1080px;background: #fff;}
 .mw-container {width:1920px;height: 1080px;margin: 0 auto;position: relative;font-family: Arial,sans-serif;
 	background: #fff url("../imgs/body.jpg") no-repeat;background-size:contain;padding: 0;
 }
