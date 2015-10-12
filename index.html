@@ -22,7 +22,7 @@
                 <div class="slider">
 
                     <div class="slide">
-                        <a href="#video_p26" class="html5lightbox" data-width="705" data-height="475">
+                        <a href="#video_p27" class="html5lightbox" data-width="705" data-height="475">
                             <img src="imgs/p26.png">
                         </a>
                     </div>
@@ -160,6 +160,17 @@
                 </div>
 
             </div>
+        </div>
+
+        <div id="video_p27" class="video-lightbox" style="display:none;">
+            <iframe width="100%" height="92%" src="http://www.youtube.com/embed/9BxY52glCYg" frameborder="0" allowfullscreen></iframe>
+            <div class="lightboxleft">
+                <img src="imgs/p26-l.jpg" height="30" />
+            </div>
+            <div class="lightboxright">
+                <img src="imgs/p26-m.jpg" height="30" />
+            </div>
+            <div style="clear:both;"></div>
         </div>
 
         <div id="video_p1" class="video-lightbox" style="display:none;">
@@ -417,17 +428,6 @@
             <div style="clear:both;"></div>
         </div>
 
-        <div id="video_p26" class="video-lightbox" style="display:none;">
-            <iframe width="100%" height="92%" src="http://www.youtube.com/embed/9BxY52glCYg" frameborder="0" allowfullscreen></iframe>
-            <div class="lightboxleft">
-                <img src="imgs/p26-l.jpg" height="30" />
-            </div>
-            <div class="lightboxright">
-                <img src="imgs/p26-m.jpg" height="30" />
-            </div>
-            <div style="clear:both;"></div>
-        </div>
-
         <script type="text/javascript">
             $(document).ready(function(){
 
@@ -441,6 +441,8 @@
                     moveSlides: 1,
                     slideMargin: 10
                 });
+
+                $(".html5lightbox").html5lightbox();
             });
         </script>
 
