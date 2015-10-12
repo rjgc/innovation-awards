@@ -60,6 +60,7 @@
 
     <!--<gap:platform name="ios" />-->
     <gap:platform name="android" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <!--<gap:platform name="winphone" />-->
     
     <!--<gap:plugin name="nl.x-services.plugins.socialsharing" version="2.3" />-->
@@ -74,8 +75,8 @@
     </gap:config-file>
     <preference name="StatusBarOverlaysWebView" value="true" />-->
  
-    <!--<preference name="phonegap-version" value="cli-5.2.0" />-->
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
+    <!--<preference name="phonegap-version" value="3.7.0" />-->
     
     <!-- GENERAL PREFERENCES -->
         
