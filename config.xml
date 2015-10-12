@@ -74,8 +74,8 @@
     </gap:config-file>
     <preference name="StatusBarOverlaysWebView" value="true" />-->
  
-    <!--<preference name="phonegap-version" value="cli-5.2.0" />-->
-    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
+    <!--<preference name="phonegap-version" value="3.5.0" />-->
     
     <!-- GENERAL PREFERENCES -->
         
